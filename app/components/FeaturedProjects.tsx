@@ -53,8 +53,8 @@ export default function FeaturedProjects({ showViewAll = true }: Props) {
                         key={cat}
                         onClick={() => setActiveCategory(cat)}
                         className={`px-5 cursor-pointer py-2 rounded-full text-sm font-semibold border transition-all duration-300 shadow-sm ${activeCategory === cat
-                                ? "bg-blue-600 text-white border-blue-600"
-                                : "bg-white dark:bg-zinc-800 text-gray-700 dark:text-gray-200 border-gray-300 hover:border-blue-500 hover:text-blue-600"
+                            ? "bg-blue-600 text-white border-blue-600"
+                            : "bg-white dark:bg-zinc-800 text-gray-700 dark:text-gray-200 border-gray-300 hover:border-blue-500 hover:text-blue-600"
                             }`}
                     >
                         {cat}

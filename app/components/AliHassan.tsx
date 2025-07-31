@@ -212,6 +212,7 @@ const AliHassan = () => {
                   src="/images/ali-hassan-profile.png"
                   alt="Ali Hassan"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="rounded-full object-cover z-10"
                   priority
                 />
