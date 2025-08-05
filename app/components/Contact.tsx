@@ -149,10 +149,10 @@ export default function ContactPage() {
                 >
                     <div
                         className="flex items-center gap-2 hover:text-teal-400 cursor-pointer transition"
-                        onClick={() => window.location.href = "mailto:mughal201burewala@gmail.com"}
+                        onClick={() => window.location.href = "mailto:alihassan.webdev@gmail.com"}
                     >
                         <FaEnvelope />
-                        <span className="hover:underline">mughal201burewala@gmail.com</span>
+                        <span className="hover:underline">alihassan.webdev@gmail.com</span>
                     </div>
                     <div
                         className="flex items-center gap-2 hover:text-teal-400 cursor-pointer transition"

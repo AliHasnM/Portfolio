@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ali Hassan – Full Stack Developer Portfolio (MERN / Next.js)
 
-## Getting Started
+Welcome to my personal portfolio – a showcase of the work, skills, and experiences I’ve built over the past 3+ years as a Full Stack Developer. Specializing in **MERN Stack** and **Next.js**, I craft high-performance applications that are clean, scalable, and user-friendly.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Check it out live here: [My Portfolio](https://ali-hassan-portfolio-next-js.vercel.app)
+
+## 👨‍💻 About Me
+
+I'm **Ali Hassan**, a Full Stack Developer with specialize in **MongoDB, Express.js, React.js, Node.js, and Next.js**. I hold a **Bachelor's degree in Computer Science** and have completed multiple remote internships and freelance gigs.
+
+I believe in clean code, intuitive UI/UX, and continuous learning. From building real-time chat apps to scalable backend APIs, I’ve worked on everything from frontend finesse to backend logic.
+
+## 🧠 Skills & Tech Stack
+
+### 💻 Web Basics
+
+`HTML`, `CSS`, `JavaScript`, `TypeScript`
+
+### 🎨 Frontend
+
+`React.js`, `Next.js`, `Tailwind CSS`, `Redux`, `Framer Motion`, `Zustand`
+
+### 🔧 Backend
+
+`Node.js`, `Express.js`, `JWT`, `Bcrypt`, `Cloudinary`
+
+### 🗄️ Database
+
+`MongoDB`, `Mongoose`, `Prisma`
+
+### 🚀 DevOps & Deployment
+
+`Vercel`, `Netlify`, `Railway`, `GitHub Actions`
+
+### 🧪 Testing & API Tools
+
+`Postman`, `Jest`, `React Testing Library`, `Thunder Client`
+
+### 🤖 AI Tools
+
+`OpenAI (ChatGPT)`, `LangChain`, `Blackbox`, `n8n`, `AI SaaS Builder`, `LLM UI`, `Pinecone`
+
+### ⚙️ Others
+
+`REST APIs`, `WebSocket`, `Git`, `VS Code`, `Figma`, `Zod`, `ESLint + Prettier`
+
+---
+
+## 🚩 Timeline
+
+```text
+2020 – Started with HTML & CSS
+2021 – Learned JavaScript & React.js
+2022 – Moved to Node.js & Express
+2023 – Mastered the MERN Stack
+2024 – Focused on Next.js & modern tooling
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Featured Projects
 
-## Learn More
+| Project                      | Stack               | Description                          | Live                                                   |
+| ---------------------------- | ------------------- | ------------------------------------ | ------------------------------------------------------ |
+| **VidKit**                   | Next.js, TypeScript | AI video platform with CMS dashboard | [Live](https://vidkit-ten.vercel.app)                  |
+| **Zauq-E-Sama**              | Next.js             | Minimalistic Sufi music player       | [Live](https://zauq-e-sama.vercel.app)                 |
+| **Mystery Messenger**        | Next.js             | Real-time chat app with auth         | —                                                      |
+| **AI Voice Assistant**       | MERN, WebSocket     | AI-powered voice assistant           | —                                                      |
+| **University Timetable App** | React               | Class schedule UI                    | —                                                      |
+| **Ochii**                    | React               | Animated modern website design       | [Live](https://thunderous-kangaroo-43704a.netlify.app) |
+| **Budget App**               | React               | Expense tracker with charts          | [Live](https://profound-fudge-b77e2d.netlify.app)      |
+| **YouTube Clone**            | Node.js             | RESTful backend clone                | —                                                      |
 
-To learn more about Next.js, take a look at the following resources:
+▶ **More projects available in the repo**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💼 Experience
 
-## Deploy on Vercel
+### 🔹 Full-Time Internships
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **CodeAlpha** (MERN Stack Developer, Web Development) – _India, Remote_
+- **Devsinz Intern Connect** (MERN Stack Developer) – _Pakistan, Remote_
+- **The Sparks Foundation** (Web Development & Designing) – _Global, Remote_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔹 Freelance Work
+
+- **Fiverr** – Full Stack Projects, Bug Fixes, APIs
+- **Upwork** – Modern dashboards, admin panels, scalable apps
+- **GitHub Open Source** – 40+ repositories for learning & community
+
+---
+
+## 🎓 Education
+
+- **BS Computer Science** – University of Agriculture, Faisalabad.
+- **Intermediate in Science** – Govt. College, Burewala.
+- **Matriculation in Science** – Govt. Nangal High School, Sahiwal.
+
+---
+
+## 🏅 Certifications
+
+- Web Development – CodeAlpha (2024)
+- Full Stack Developer – Devsinz Intern Connect (2024)
+- MERN Stack Developer – The Sparks Foundation (2024)
+- Website Development with HTML/CSS – Alison (2023)
+- JavaScript, ES6, React – Alison (2024)
+
+---
+
+## 🗣️ Testimonials
+
+> “Ali Hassan showed strong MERN skills and professionalism throughout the internship.”
+> — _Swati Sri, CEO, CodeAlpha_
+
+> “His ability to understand backend logic and deliver clean solutions impressed us deeply.”
+> — _Hammad Irfan, CEO, Devsinz Intern Connect_
+
+> “A consistent and innovative contributor to our web tasks.”
+> — _Pranav Dubey, The Sparks Foundation_
+
+---
+
+## 📬 Contact Me
+
+- 📧 Email: [alihassan.webdev@gmail.com](mailto:alihassan.webdev@gmail.com)
+- 📞 Phone: [+92 307 8357370](tel:+923078357370)
+- 🌍 Portfolio: [ali-hassan-portfolio](https://ali-hassan-portfolio-next-js.vercel.app)
+- 🔗 GitHub: [AliHasnM](https://github.com/AliHasnM)
+- 💼 LinkedIn: [Ali Hassan](https://linkedin.com/in/ali-hassan-261187253)
+- 📷 Instagram: [Ali Hassan](https://instagram.com/alihassan.mughal.7524)
+- 📘 Facebook: [Ali Hassan](https://facebook.com/alihassan.mughal.7524)
+
+---
+
+## 📝 Blog (Coming Soon)
+
+- How I Built a Voice Assistant using ChatGPT + IoT
+- A Deep Dive into MERN Stack Projects
+
+---
+
+> ⚡ Let’s collaborate and bring your digital vision to life with scalable, clean, and beautiful web apps!
+
+```
+
+```
