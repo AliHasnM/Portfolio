@@ -7,7 +7,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx}", // if you have components folder
     "./pages/**/*.{js,ts,jsx,tsx}", // safe to include
   ],
-  darkMode: "class", // 👈 important
+  // darkMode: "class", // 👈 important
   theme: {
     extend: {
       backgroundImage: {

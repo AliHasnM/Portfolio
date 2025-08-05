@@ -7,8 +7,6 @@ import { Menu as MenuIcon, X, Github, Linkedin, Instagram, Facebook } from "luci
 import { cn } from "../lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import { initSmoothScroll } from "../lib/lenis";
-import useTheme from "../lib/useTheme";
-import { MoonIcon, SunIcon } from "lucide-react";
 
 const navItems = [
     { name: "Home", href: "/" },
@@ -29,7 +27,6 @@ const navItems = [
 
 export default function Header() {
     const pathname = usePathname();
-    const { theme, toggleTheme } = useTheme();
     const [open, setOpen] = useState(false);
 
     useEffect(() => {
@@ -123,12 +120,7 @@ export default function Header() {
                     {iconLink("https://www.instagram.com/alihassan.mughal.7524", "Instagram", <Instagram size={20} />)}
                     {iconLink("https://www.facebook.com/alihassan.mughal.7524", "Facebook", <Facebook size={20} />)}
                 </div>
-                {/* Toggle Theme */}
-                <button onClick={toggleTheme}
-                    className="rounded-full cursor-pointer p-2 text-white hover:bg-white/10 transition"
-                    aria-label="Toggle Theme">
-                    {theme === "dark" ? <SunIcon size={20} /> : <MoonIcon size={20} />}
-                </button>
+
                 <Link
                     href="/images/Ali Hassan Next Js.pdf"
                     download
