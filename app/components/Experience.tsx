@@ -54,23 +54,18 @@ export default function ExperiencePage() {
                                         delay: i * 0.15,
                                     }}
                                     viewport={{ once: false }}
-                                    className="cursor-pointer bg-white dark:bg-gray-900/80 border border-cyan-500/20 shadow-md p-6 rounded-2xl transition duration-300 hover:-translate-y-1 hover:shadow-lg 
-                  hover:border-transparent hover:bg-gradient-to-br hover:from-cyan-400/20 hover:to-blue-500/10 hover:ring-1 hover:ring-cyan-400/40"
+                                    className="cursor-pointer bg-gray-900/80 border border-cyan-500/20 shadow-md p-6 rounded-2xl transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-transparent hover:bg-gradient-to-br hover:from-cyan-400/20 hover:to-blue-500/10 hover:ring-1 hover:ring-cyan-400/40"
                                 >
                                     <div className="flex items-center gap-3 mb-3">
-                                        <Icon className="text-xl text-gray-700 dark:text-gray-300" />
+                                        <Icon className="text-xl text-gray-300" />
                                         <div>
-                                            <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                                                {exp.company}
-                                            </h4>
+                                            <h4 className="text-lg font-semibold text-white">{exp.company}</h4>
                                             <p className="text-sm text-gray-500">{exp.location}</p>
                                         </div>
                                     </div>
-                                    <p className="font-medium text-sm text-gray-700 dark:text-gray-300 mb-1">
-                                        {exp.role}
-                                    </p>
+                                    <p className="font-medium text-sm text-gray-300 mb-1">{exp.role}</p>
                                     <p className="text-xs text-gray-500 mb-3">{exp.duration}</p>
-                                    <ul className="list-disc pl-5 text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                                    <ul className="list-disc pl-5 text-sm text-gray-300 space-y-1">
                                         {exp.achievements.map((a, j) => (
                                             <li key={j}>{a}</li>
                                         ))}
@@ -108,27 +103,22 @@ export default function ExperiencePage() {
                                         delay: i * 0.12,
                                     }}
                                     viewport={{ once: false }}
-                                    className="cursor-pointer bg-white dark:bg-gray-900/80 border border-cyan-500/20 shadow-md p-6 rounded-2xl transition duration-300 hover:-translate-y-1 hover:shadow-lg 
-                  hover:border-transparent hover:bg-gradient-to-br hover:from-cyan-400/20 hover:to-blue-500/10 hover:ring-1 hover:ring-cyan-400/40"
+                                    className="cursor-pointer bg-gray-900/80 border border-cyan-500/20 shadow-md p-6 rounded-2xl transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-transparent hover:bg-gradient-to-br hover:from-cyan-400/20 hover:to-blue-500/10 hover:ring-1 hover:ring-cyan-400/40"
                                 >
                                     <div className="flex items-center gap-3 mb-3">
                                         <Icon className="w-6 h-6 text-cyan-500" />
                                         <div>
-                                            <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                                                {f.platform}
-                                            </h4>
+                                            <h4 className="text-lg font-semibold text-white">{f.platform}</h4>
                                             <p className="text-sm text-gray-500">{f.clients}</p>
                                         </div>
                                     </div>
-                                    <p className="font-medium text-sm text-gray-700 dark:text-gray-300 mb-1">
-                                        {f.role}
-                                    </p>
+                                    <p className="font-medium text-sm text-gray-300 mb-1">{f.role}</p>
                                     <p className="text-xs text-gray-500 mb-3">{f.duration}</p>
-                                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                                    <p className="text-sm text-gray-400 mb-2">
                                         <Star className="inline-block w-4 h-4 text-yellow-400 mr-1" />
                                         {f.projects}+ projects completed
                                     </p>
-                                    <ul className="list-disc pl-5 text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                                    <ul className="list-disc pl-5 text-sm text-gray-300 space-y-1">
                                         {f.highlights.map((h, j) => (
                                             <li key={j}>{h}</li>
                                         ))}
@@ -147,15 +137,15 @@ export default function ExperiencePage() {
                     viewport={{ once: false }}
                     className="text-center mt-20"
                 >
-                    <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">
+                    <h4 className="text-lg font-semibold text-gray-400 mb-2">
                         Connect with me
                     </h4>
-                    <div className="flex justify-center gap-6 text-4xl text-gray-700 dark:text-gray-300">
+                    <div className="flex justify-center gap-6 text-4xl text-gray-300">
                         <a href="https://www.linkedin.com/in/ali-hassan-261187253" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="hover:text-blue-600" />
                         </a>
                         <a href="https://github.com/AliHasnM" target="_blank" rel="noopener noreferrer">
-                            <FaGithub className="hover:text-black dark:hover:text-white" />
+                            <FaGithub className="hover:text-white" />
                         </a>
                         <a href="https://www.upwork.com/freelancers/~0189ab3ece08ee95d9" target="_blank" rel="noopener noreferrer">
                             <SiUpwork className="hover:text-green-600" />

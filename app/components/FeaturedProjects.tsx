@@ -54,7 +54,7 @@ export default function FeaturedProjects({ showViewAll = true }: Props) {
                         onClick={() => setActiveCategory(cat)}
                         className={`px-5 cursor-pointer py-2 rounded-full text-sm font-semibold border transition-all duration-300 shadow-sm ${activeCategory === cat
                             ? "bg-blue-600 text-white border-blue-600"
-                            : "bg-white dark:bg-zinc-800 text-gray-700 dark:text-gray-200 border-gray-300 hover:border-blue-500 hover:text-blue-600"
+                            : "bg-zinc-800 text-gray-200 border-gray-300 hover:border-blue-500 hover:text-blue-600"
                             }`}
                     >
                         {cat}
@@ -77,7 +77,7 @@ export default function FeaturedProjects({ showViewAll = true }: Props) {
                                     damping: 14,
                                 }}
                                 viewport={{ once: false }}
-                                className="bg-white dark:bg-gray-900 rounded-2xl overflow-hidden border border-cyan-500/20 shadow-md hover:shadow-cyan-500/30 transition-all duration-300 transform hover:scale-105 cursor-pointer flex flex-col h-[30rem]"
+                                className="bg-gray-900 rounded-2xl overflow-hidden border border-cyan-500/20 shadow-md hover:shadow-cyan-500/30 transition-all duration-300 transform hover:scale-105 cursor-pointer flex flex-col h-[30rem]"
                             >
                                 <Image
                                     src={project.image}
@@ -90,21 +90,21 @@ export default function FeaturedProjects({ showViewAll = true }: Props) {
                                 />
                                 <div className="p-6 space-y-4">
                                     <div className="flex justify-between items-center">
-                                        <h3 className="text-xl font-semibold text-blue-700 dark:text-cyan-400 whitespace-nowrap overflow-hidden text-ellipsis">
+                                        <h3 className="text-xl font-semibold text-cyan-400 whitespace-nowrap overflow-hidden text-ellipsis">
                                             {project.title}
                                         </h3>
-                                        <span className="text-xs bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-300 px-2 py-0.5 rounded-full">
+                                        <span className="text-xs bg-gray-700 text-gray-300 px-2 py-0.5 rounded-full">
                                             {project.category}
                                         </span>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                                    <p className="text-gray-300 text-sm leading-relaxed">
                                         {project.description}
                                     </p>
                                     <div className="flex flex-wrap gap-2">
                                         {project.tech.map((tech, i) => (
                                             <span
                                                 key={i}
-                                                className="bg-blue-100 dark:bg-blue-800/20 text-blue-800 dark:text-blue-300 text-xs px-2 py-1 rounded-full"
+                                                className="bg-blue-800/20 text-blue-300 text-xs px-2 py-1 rounded-full"
                                             >
                                                 {tech}
                                             </span>
@@ -115,7 +115,7 @@ export default function FeaturedProjects({ showViewAll = true }: Props) {
                                             href={project.github}
                                             target="_blank"
                                             aria-label="GitHub Repository"
-                                            className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition"
+                                            className="text-gray-300 hover:text-white transition"
                                         >
                                             <FaGithub size={20} />
                                         </Link>
@@ -124,7 +124,7 @@ export default function FeaturedProjects({ showViewAll = true }: Props) {
                                                 href={project.live}
                                                 target="_blank"
                                                 aria-label="Live Preview"
-                                                className="text-blue-600 hover:text-blue-800 dark:text-cyan-400 dark:hover:text-cyan-300 transition"
+                                                className="text-cyan-400 hover:text-cyan-300 transition"
                                             >
                                                 <FaExternalLinkAlt size={18} />
                                             </Link>
@@ -148,7 +148,7 @@ export default function FeaturedProjects({ showViewAll = true }: Props) {
                 >
                     <Link
                         href="/projects"
-                        className="inline-block px-6 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-md transition"
+                        className="inline-block px-6 py-3 mt-8 text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-md transition"
                     >
                         View All Projects
                     </Link>

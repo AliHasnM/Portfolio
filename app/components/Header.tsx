@@ -124,7 +124,7 @@ export default function Header() {
                 <Link
                     href="/images/Ali Hassan Next Js.pdf"
                     download
-                    className="hidden md:inline-block rounded-full bg-gradient-to-r from-teal-400 to-cyan-500 px-4 py-1.5 text-sm font-semibold text-black transition hover:from-teal-300 hover:to-cyan-400 dark:text-white"
+                    className="hidden md:inline-block rounded-full bg-gradient-to-r from-teal-400 to-cyan-500 px-4 py-1.5 text-sm font-semibold transition hover:from-teal-300 hover:to-cyan-400 text-white"
                 >
                     Download CV
                 </Link>
@@ -193,7 +193,7 @@ export default function Header() {
                             href="/images/MERN Ali Hassan.pdf"
                             download
                             onClick={handleNav}
-                            className="inline-block w-full rounded-full bg-gradient-to-r from-teal-400 to-cyan-500 px-4 py-2 text-center text-sm font-semibold text-black transition hover:from-teal-300 hover:to-cyan-400 dark:text-white"
+                            className="inline-block w-full rounded-full bg-gradient-to-r from-teal-400 to-cyan-500 px-4 py-2 text-center text-sm font-semibold text-white transition hover:from-teal-300 hover:to-cyan-400"
                         >
                             Download CV
                         </Link>
