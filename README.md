@@ -58,11 +58,6 @@ I believe in clean code, intuitive UI/UX, and continuous learning. From building
 2024 – Focused on Next.js & modern tooling
 ```
 
-```
-
----
-```
-
 ## 🚀 Featured Projects
 
 | Project                      | Stack               | Description                          | Live                                                   |
